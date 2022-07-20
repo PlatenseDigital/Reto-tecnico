@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Vehículos</title>
+    <link rel="preload" href="./styles/main.css" as="style">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script defer type="text/javascript" src="./scripts/main.js"></script>
+</head>
+<body>
+    <section id="filters">
+        <span id="filterDesc">Filter by</span>
+        <span><select name="group" id="group">
+            <option value="All">All</option>
+        </select></span>
+        <div id="filtersContainer">
+            <span><input type="checkbox" class="filter" name="Manual transmission">Manual transmission</span>
+            <span><input type="checkbox" class="filter" name="5 seats">5 seats</span>
+            <span><input type="checkbox" class="filter" name="Convertibles">Convertibles</span>
+            <span><input type="checkbox" class="filter" name="Automatic transmission">Automatic transmission</span>
+            <span><input type="checkbox" class="filter" name="7 seats or more">7 seats or more</span>
+        </div>
+    </section>
+
+    <div id="cars">
+
+    </div>
+</body>
+</html>
