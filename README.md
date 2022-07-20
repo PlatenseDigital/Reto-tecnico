@@ -1,5 +1,5 @@
 
-# Reto tecnico Greenflame
+# Reto tecnico
 Para afrontar este reto decidí encararlo con JavaScript nativo, sin ninguna libreria extra, si bien eso aumentó un poco la carga, no queria trivializar la parte tecnica, ni perder la oportunidad de demostrar mis conocimientos en CSS.
 
 ## Como Desplegar
